@@ -45,7 +45,6 @@ git submodule add <THEME_URL> themes/<THEME_NAME>
 ```
 git remote add origin <REMOTE_URL>
 ```
-注意：在`.gitignore`文件中增加`public/`，原因见下文。
 
 [这里](https://themes.gohugo.io/ "Hugo Themes")有各式各样的主题.
 
@@ -141,8 +140,8 @@ git push origin master
 # Come Back up to the Project Root
 cd ..
 ```
-因为public文件夹作为GitHub Page submodule，所以项目仓库要忽略public文件夹，
-这样在GitHub仓库上看public文件夹是这样的："public @ cfdf4a0"，点击可以跳转到GitHub Page仓库。
+因为public文件夹作为GitHub Page submodule，这样在GitHub仓库上看public文件夹是这样的："public @ cfdf4a0"，
+点击可以跳转到GitHub Page仓库。
 
 ### 访问网站
 
